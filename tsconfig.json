@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
     "composite": true,
-    "target": "ES6",
+    "target": "ESNext",
     "lib": ["ESNext"],
     "module": "CommonJS",
     "esModuleInterop": true,
+    "incremental": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "strictNullChecks": true,
     "checkJs": false,
     "skipLibCheck": true
-  }
+  },
+  "include": ["src", "vite.config.ts", "tests", ".eslintrc.cjs", ".prettierrc.cjs"]
 }

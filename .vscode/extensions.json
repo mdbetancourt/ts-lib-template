@@ -2,6 +2,9 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "orta.vscode-jest"
+    "steoates.autoimport",
+    "ryanluker.vscode-coverage-gutters",
+    "eg2.vscode-npm-script",
+    "christian-kohler.path-intellisense"
   ]
 }

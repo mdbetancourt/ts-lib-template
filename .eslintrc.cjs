@@ -1,4 +1,8 @@
-module.exports = {
+/* eslint-disable @typescript-eslint/no-var-requires */
+//@ts-check
+const { defineConfig } = require('eslint-define-config');
+
+module.exports = defineConfig({
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -9,7 +13,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
-    tsconfigRootDir: __dirname
+    tsconfigRootDir: __dirname,
+    extraFileExtensions: ['.cjs', '.mjs']
   },
   env: {
     node: true
@@ -19,4 +24,4 @@ module.exports = {
     'no-throw-literal': 'off',
     '@typescript-eslint/no-throw-literal': ['error']
   }
-};
+});
