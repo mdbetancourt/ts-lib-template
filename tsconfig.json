@@ -8,6 +8,13 @@
     "incremental": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "checkJs": false,
     "skipLibCheck": true
   },
